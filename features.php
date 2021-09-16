@@ -1,6 +1,8 @@
 <?php
 include "config.php";
 
+session_start();
+
 $conn = new mysqli($servername, $username, $password);
 $conn->select_db($database);
 

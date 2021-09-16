@@ -1,6 +1,7 @@
 <?php
 include "features.php";
 
+$_SESSION["fuck"] = "session check";
 if(isset($_GET['id'])) $ID = $_GET['id'];
 
 if(!file_exists(".installed")){
